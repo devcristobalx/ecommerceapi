@@ -22,7 +22,7 @@ beforeAll(async()=>{
 
 test("POST -> 'BASE_URL', should return status code 201 and res.body.name === body.name",async()=>{
     const category = {
-        name: "computers"
+        name: "Tech"
     }
 
     const res = await request(app)
